@@ -1369,11 +1369,11 @@ meta.foundation-mq-topbar {
       padding: 12px 0 12px 0;
       padding-left: 15px;
       font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       font-weight: normal;
       text-transform: none; }
       .top-bar-section ul li > a.button {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         padding-right: 15px;
         padding-left: 15px;
         background-color: #008cba;
@@ -1583,7 +1583,7 @@ meta.foundation-mq-topbar {
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         background: #0078a0; }
     .top-bar-section .has-dropdown > a {
-      padding-right: 35px !important; }
+      padding-right: 30px !important; }
       .top-bar-section .has-dropdown > a:after {
         content: "";
         display: block;
