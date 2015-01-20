@@ -179,7 +179,7 @@ a.footerLink:hover          { text-decoration:none; -webkit-transition: all 0.3s
 /*------------------------------------------------*/
 /* Begin SEARCH */
 /*------------------------------------------------*/
-#search                         { float: right; width: 260px; }
+#search                         { float: right; width:200px; }
 
 #search a.SearchButton:link,
 #search a.SearchButton:visited  { display: inline-block; width:59px; text-align:center; color:#ffffff; float: right; margin: 0; padding: 0; }
@@ -192,7 +192,7 @@ a.footerLink:hover          { text-decoration:none; -webkit-transition: all 0.3s
     margin-top:-7px !important;
     padding: 0 5px 0 10px;
     margin: 0;
-    height:45px;
+    height:35px;
     border: solid 1px #cccccc;
     border-radius: 0;
     box-shadow: none;
@@ -253,7 +253,7 @@ width:100%;
 .social-holder .social-links           {  }
 .social-holder ul                      { margin-bottom:0 !important; margin-top:-1px; }
 .social-holder .social-links li        { list-style: none; display: inline-block; text-align:center; vertical-align: middle; margin-left:-5px; }
-.social-holder .social-links li a      { width: 34px; line-height:33px; display: block; color: #ffffff; font-size:18px; margin:0;-webkit-transition: all 0.3s ease-in 0s; -moz-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; }
+.social-holder .social-links li a      { width: 34px; line-height:33px; display: block; color: #0026ff; font-size:18px; margin:0;-webkit-transition: all 0.3s ease-in 0s; -moz-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; }
 .social-holder .social-links li a:hover{ width: 34px; line-height:33px; display: block; /*color: #008cba;*/ }
 /********** social icons **********/
 

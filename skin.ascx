@@ -19,42 +19,25 @@
 <dnn:DnnJsInclude ID="DnnJsInclude1" runat="server" FilePath="js/vendor/modernizr.js" PathNameAlias="SkinPath"  />
 
 <!-- Begin top functions bar -->
-<div class="contain-to-grid topbar">
-    <div class="row" style="color:#fff; padding:3px 0 3px 0;">
-        <div class="hide-for-small medium-4 columns left text-left social-holder"><!--#include file = "includes/socialButtons.inc" --></div>
-        <div class="small-12 medium-8 columns right text-right">
 
-           <!--Begin languages -->
-            <div class="language-holder text-right">
-                <dnn:LANGUAGE runat="server" ID="LANGUAGE"  
-                    ShowLinks="True" 
-                    ShowMenu="False" 
-                    SelectedItemTemplate='<a href="[URL]" class="Language selected" title="[CULTURE:NATIVENAME]">[CULTURE:TWOLETTERISOCODE]</a>'
-                    ItemTemplate='<a href="[URL]" class="Language" title="[CULTURE:NATIVENAME]">[CULTURE:TWOLETTERISOCODE]</a>' 
-                    AlternateTemplate='<a href="[URL]" class="Language" title="[CULTURE:NATIVENAME]">[CULTURE:TWOLETTERISOCODE]</a>' />
-            </div> <!--End languages -->
-                         
-            <!-- Begin login and users -->
-            <!-- you can go to /login to get to login page -->
-            <div id="login-holder" class="text-right">             
-                <div id="login">
-                    <dnn:USER ID="dnnUser" runat="server" CssClass="LoginLink" LegacyMode="false" /> 
-                </div>
-
-            </div>
-            <!-- End login and users -->
-
-        </div>        
-    </div>    
-</div><!-- End top functions bar -->
 
 <!-- Begin header -->
 <section class="header-holder">
     <!-- Begin Logo area -->
     <div class="row">
-        <div class="large-12 text-center large-text-left medium-text-left">
+        <div class="medium-8 columns text-center large-text-left medium-text-left">
             <div class="logo-holder"><dnn:LOGO runat="server" id="dnnLOGO" /></div>
         </div>
+    <div class="hide-for-small medium-4 columns medium-text-right">
+        <div class="social-holder">
+            <!--#include file = "includes/socialButtons.inc" -->
+        </div>
+        <div class="search-holder">
+            <!-- Begin search -->
+            <!--#include file = "includes/search.inc" -->
+            <!-- End search -->
+         </div>
+     </div>            
     </div><!-- End Logo area -->
 
     <!-- Begin Mobile social buttons -->
@@ -74,9 +57,6 @@
 
         <section class="top-bar-section"> 
             <dnn:MENU ID="foundationMenu" MenuStyle="foundation-menu" runat="server" /> 
-            <!-- Begin search -->
-            <!--#include file = "includes/search.inc" -->
-            <!-- End search -->            
         </section>
     </nav><!-- End navigation -->
 
@@ -114,7 +94,7 @@
 </section>    
 
 <!-- Begin footer -->
-<footer class="footer-holder">    
+<footer class="footer-holder">
     <!--#include file = "includes/footerContent.inc" -->
     <!--#include file = "includes/footerInfo.inc" -->
 </footer><!-- End footer -->
