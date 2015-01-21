@@ -1527,7 +1527,8 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   .top-bar {
     background: #333333;
-    overflow: visible; }
+    overflow: visible; /*change to hidden from visible to prevent wrapping*/
+}
     .top-bar:before, .top-bar:after {
       content: " ";
       display: table; }

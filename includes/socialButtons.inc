@@ -11,14 +11,14 @@
 // -->
 <ul class="social-links">
     <li><a href="#" target="_blank" title="Facebook"><i class="fi-social-facebook"></i></a></li><!-- Facebook -->
-    <li><a href="#" target="_blank" title="Google+"><i class="fi-social-google-plus"></i></a></li><!-- Google + -->
-    <li><a href="#" target="_blank" title="Pinterest"><i class="fi-social-pinterest"></i></a></li><!-- Pinterest -->
     <li><a href="#" target="_blank" title="Twitter"><i class="fi-social-twitter"></i></a></li><!-- Twitter -->
+    <li><a href="#" target="_blank" title="Flickr"><i class="fi-social-flickr"></i></a></li><!-- Flickr -->    
   
+    <!--<li><a href="#" target="_blank" title="Pinterest"><i class="fi-social-pinterest"></i></a></li> Pinterest -->
+    <!--<li><a href="#" target="_blank" title="Google+"><i class="fi-social-google-plus"></i></a></li> Google + -->
     <!--<li><a href="#" target="_blank" title="Delicious"><i class="fi-social-delicious"></i></a></li>  Delicious -->
     <!--<li><a href="#" target="_blank" title="Digg"><i class="fi-social-digg"></i></a></li> Digg -->
     <!-- <li><a href="#" target="_blank" title="Dribbble"><i class="fi-social-dribbble"></i></a></li> Dribble -->  
-    <!--<li><a href="#" target="_blank" title="Flickr"><i class="fi-social-flickr"></i></a></li> Flickr -->    
     <!--<li><a href="#" target="_blank" title="Foursquare"><i class="fi-social-foursquare"></i></a></li> Foursquare -->
     <!--<li><a href="#" target="_blank" title="Github"><i class="fi-social-github"></i></a></li> Github -->    
     <!--<li><a href="#" target="_blank" title="Instrgram"><i class="fi-social-instagram"></i></a></li> Instragram -->
