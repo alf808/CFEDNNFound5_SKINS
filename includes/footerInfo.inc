@@ -8,8 +8,8 @@
     </div>
                 <div id="login-holder" class="text-right">                      
     <div id="login" class="small-text-center medium-6 columns medium-text-right">
-      <dnn:LOGIN ID="dnnLogin" runat="server" CssClass="LoginLink" LegacyMode="true" />
       <dnn:USER ID="dnnUser" runat="server" CssClass="LoginLink" LegacyMode="true" />  
+      <dnn:LOGIN ID="dnnLogin" runat="server" CssClass="LoginLink" LegacyMode="true" />
       <!-- br / -->
 
     </div>
