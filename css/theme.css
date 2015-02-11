@@ -167,12 +167,14 @@ a.footerLink:active,
 a.footerLink:visited        { color: #ffffff; text-decoration:none; text-shadow:none !important; line-height:24px; font-size: .8rem}
 a.footerLink:hover          { text-decoration:none; -webkit-transition: all 0.3s ease-in 0s; -moz-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; }
 
-/* i tried below but to no avail . alf */
+/* i tried background below but to no avail . alf */
 #footer {
     /*clear: both;*/
     height: 230px;
-    margin-top: 70px;
-    background: url('img/hpBlockAbout-bg.jpg') no-repeat;
+    /*margin-top: 70px;
+    background: url('img/hpBlockAbout-bg.jpg') no-repeat;*/
+    margin: 0;
+    padding: 40px 0;
 }
 
 .searchButton { font-size:20px; line-height:20px; }

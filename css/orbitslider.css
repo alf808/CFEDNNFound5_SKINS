@@ -50,7 +50,8 @@
     position: relative;
       display: block;
       max-width: 100%;
-      left: 30%; /*give me 30% space on left side for the caption */
+      max-height: 100%;
+      left: 30%; /* give me 30% space on left side for the caption. this needs to be commented when images are proper dimensions */
 }
     .orbit-container .orbit-slides-container > * {
       position: absolute;

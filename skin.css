@@ -8,6 +8,7 @@
 /**** Choose your color scheme you would like to use below */
 
 @import url('themes/_default.css');
+@import url('themes/legacy-web.css');
 /*
 @import url('themes/_custom.css');
 
