@@ -27,7 +27,7 @@
     margin-top: -20px;
     margin-left: -20px;
     border: solid 3px;
-    border-color: #555555 white;
+    border-color: #555555 #FFFFFF;
     border-radius: 1000px;
     animation-name: rotate;
     animation-duration: 1.5s;
@@ -44,52 +44,41 @@
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: rgb(204,204,204);
+    background-color: rgb(0,30,42);
     -webkit-transform: translateZ(0); }
     .orbit-container .orbit-slides-container img {
-    position: relative;
       display: block;
-      max-width: 100%;
-      max-height: 100%;
-      left: 30%; /* give me 30% space on left side for the caption. this needs to be commented when images are proper dimensions */
-}
+      max-width: 100%; }
     .orbit-container .orbit-slides-container > * {
       position: absolute;
       top: 0;
       width: 100%;
       margin-left: 100%; }
       .orbit-container .orbit-slides-container > *:first-child {
-        margin-left: 0%; }
+        margin-left: 0; }
       .orbit-container .orbit-slides-container > * .orbit-caption {
         position: absolute;
-        top: 0px;
-        /* bottom: 0
-        background-color: rgba(51, 51, 51, 0.8);
-        background-color: rgb(204,204,204);
-        border-top-style: solid;
-        border-bottom-style: solid;
-        border-width: thin;
-        border-color: #ccc;*/
+        /*bottom: 0;*/
+        top: .1rem;
+        left: 2rem;
+        background-color:rgb(218, 218, 218); 
+        background-color: rgba(218, 218, 218, 0.8);
         color: black;
-        width: 30%;
-        height: 100%;
-        max-height: 100%;
-        padding: 0.625rem 1.875rem;
-        font-size: 0.8125rem; }
+        width: 25%;
+        height: 99%;
+        padding: 0.625rem 0.875rem;
+        font-size: 0.875rem; }
 .orbit-container .orbit-slides-container > * .orbit-caption h1, .orbit-caption h4 {
     color: #006296;
     font-weight: bolder;
-}
-.orbit-container .orbit-slides-container > * .orbit-caption span {
-    color: black;
 }
   .orbit-container .orbit-slide-number {
     position: absolute;
     top: 10px;
     left: 10px;
     font-size: 12px;
-    color: white;
-    background: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    background: transparent;
     z-index: 10; }
     .orbit-container .orbit-slide-number span {
       font-weight: 700;
@@ -105,31 +94,31 @@
       height: 3px;
       background-color: rgba(255, 255, 255, 0.3);
       display: block;
-      width: 0%;
+      width: 0;
       position: relative;
       right: 20px;
       top: 5px; }
     .orbit-container .orbit-timer > span {
       display: none;
       position: absolute;
-      top: 0px;
+      top: 0;
       right: 0;
       width: 11px;
       height: 14px;
-      border: solid 4px white;
+      border: solid 4px #FFFFFF;
       border-top: none;
       border-bottom: none; }
     .orbit-container .orbit-timer.paused > span {
       right: -4px;
-      top: 0px;
+      top: 0;
       width: 11px;
       height: 14px;
       border: inset 8px;
       border-left-style: solid;
       border-color: transparent;
-      border-left-color: #fff; }
+      border-left-color: #FFFFFF; }
       .orbit-container .orbit-timer.paused > span.dark {
-        border-left-color: #333; }
+        border-left-color: #333333; }
   .orbit-container:hover .orbit-timer > span {
     display: block; }
   .orbit-container .orbit-prev,
@@ -161,19 +150,19 @@
     .orbit-container .orbit-prev > span {
       border-right-style: solid;
       border-color: transparent;
-      border-right-color: white; }
+      border-right-color: #FFFFFF; }
     .orbit-container .orbit-prev:hover > span {
-      border-right-color: white; }
+      border-right-color: #FFFFFF; }
   .orbit-container .orbit-next {
     right: 0; }
     .orbit-container .orbit-next > span {
       border-color: transparent;
       border-left-style: solid;
-      border-left-color: white;
+      border-left-color: #FFFFFF;
       left: 50%;
       margin-left: -4px; }
     .orbit-container .orbit-next:hover > span {
-      border-left-color: white; }
+      border-left-color: #FFFFFF; }
 
 .orbit-bullets-container {
   text-align: center; }
@@ -191,7 +180,7 @@
     display: inline-block;
     width: 0.5625rem;
     height: 0.5625rem;
-    background: #cccccc;
+    background: #CCCCCC;
     float: none;
     margin-right: 6px;
     border-radius: 1000px; }
@@ -217,7 +206,7 @@
     height: auto !important; }
   .orbit-stack-on-small .orbit-slides-container > * {
     position: relative;
-    margin: 0% !important;
+    margin: 0 !important;
     opacity: 1 !important; }
   .orbit-stack-on-small .orbit-slide-number {
     display: none; }
