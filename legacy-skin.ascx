@@ -15,6 +15,7 @@
 <dnn:META ID="mobileScale" runat="server" Name="viewport" Content="width=device-width,initial-scale=1.0" />
 <dnn:DnnCssInclude ID="DnnCssInclude1" runat="server" FilePath="css/normalize.css" PathNameAlias="SkinPath" />
 <dnn:DnnCssInclude ID="DnnCssInclude2" runat="server" FilePath="css/foundation.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude ID="csslegacyweb" runat="server" FilePath="css/legacy-web.css" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude ID="DnnJsInclude1" runat="server" FilePath="js/vendor/modernizr.js" PathNameAlias="SkinPath"  />
 
 <!-- Begin top functions bar -->
