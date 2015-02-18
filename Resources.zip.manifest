@@ -1,34 +1,6 @@
 ﻿<dotnetnuke type="ResourceFile" version="5.0">
   <files>
     <file>
-      <path>themes/</path>
-      <name>_custom.css</name>
-    </file>
-    <file>
-      <path>themes/</path>
-      <name>_default.css</name>
-    </file>
-    <file>
-      <path>themes/</path>
-      <name>default.css</name>
-    </file>
-    <file>
-      <path>themes/</path>
-      <name>foundation_blue.css</name>
-    </file>
-    <file>
-      <path>themes/</path>
-      <name>foundation_green.css</name>
-    </file>
-    <file>
-      <path>themes/</path>
-      <name>foundation_grey.css</name>
-    </file>
-    <file>
-      <path>themes/</path>
-      <name>foundation_red.css</name>
-    </file>
-    <file>
       <path />
       <name>skin.ascx</name>
     </file>
@@ -50,11 +22,11 @@
     </file>
     <file>
       <path>css/</path>
-      <name>normalize.css</name>
+      <name>legacy-web.css</name>
     </file>
     <file>
       <path>css/</path>
-      <name>orbitslider.css</name>
+      <name>normalize.css</name>
     </file>
     <file>
       <path>css/</path>
@@ -1242,14 +1214,6 @@
     </file>
     <file>
       <path>img/</path>
-      <name>globe.png</name>
-    </file>
-    <file>
-      <path>img/</path>
-      <name>hpBlockAbout-bg.jpg</name>
-    </file>
-    <file>
-      <path>img/</path>
       <name>icon_message.png</name>
     </file>
     <file>
@@ -1367,6 +1331,38 @@
     <file>
       <path>js/vendor/</path>
       <name>placeholder.js</name>
+    </file>
+    <file>
+      <path>themes/</path>
+      <name>_custom.css</name>
+    </file>
+    <file>
+      <path>themes/</path>
+      <name>_default.css</name>
+    </file>
+    <file>
+      <path>themes/</path>
+      <name>default.css</name>
+    </file>
+    <file>
+      <path>themes/</path>
+      <name>foundation_blue.css</name>
+    </file>
+    <file>
+      <path>themes/</path>
+      <name>foundation_green.css</name>
+    </file>
+    <file>
+      <path>themes/</path>
+      <name>foundation_grey.css</name>
+    </file>
+    <file>
+      <path>themes/</path>
+      <name>foundation_red.css</name>
+    </file>
+    <file>
+      <path />
+      <name>legacy-skin.ascx</name>
     </file>
   </files>
 </dotnetnuke>
