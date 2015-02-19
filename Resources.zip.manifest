@@ -2,6 +2,10 @@
   <files>
     <file>
       <path />
+      <name>legacy-skin.ascx</name>
+    </file>
+    <file>
+      <path />
       <name>skin.ascx</name>
     </file>
     <file>
@@ -1359,10 +1363,6 @@
     <file>
       <path>themes/</path>
       <name>foundation_red.css</name>
-    </file>
-    <file>
-      <path />
-      <name>legacy-skin.ascx</name>
     </file>
   </files>
 </dotnetnuke>
