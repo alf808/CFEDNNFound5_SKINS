@@ -76,7 +76,7 @@
 
     <!-- Begin big slider -->
     <div class="row">
-        <div class="large-12 columns hide-for-small">
+        <div class="large-12 columns">
    <div id="ContentPane" runat="server"></div>
         </div>
     </div><!-- End big slider -->

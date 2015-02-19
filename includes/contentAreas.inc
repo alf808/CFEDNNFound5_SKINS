@@ -1,6 +1,6 @@
 ﻿<div>
   <div class="row">
-    <div class="medium-block-grid-12 columns"><div id="TopPane" runat="server"></div></div>
+    <div class="medium-12 columns"><div id="TopPane" runat="server"></div></div>
   </div>
 
   <div class="row">

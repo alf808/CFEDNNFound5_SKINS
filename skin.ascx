@@ -48,7 +48,7 @@
 <!-- nav bar same size as grid -->
 <div class="contain-to-grid sticky"><!-- nav bar same size as grid -->
     <!-- Begin navigation -->    
-    <nav class="top-bar" data-topbar data-options="is_hover: true; back_text: &lt;&lt;&nbsp;BACK">
+    <nav class="top-bar" data-topbar data-options="scrolltop: false; back_text: &lt;&lt;&nbsp;BACK">
         <ul class="title-area">
             <li class="name"></li>
             <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
