@@ -1,0 +1,55 @@
+.breadcrumbs {
+  display: block;
+  padding: 0.5625rem 0.875rem 0.125rem 0.125rem;
+  overflow: hidden;
+  margin-left: 0;
+
+  list-style: none;
+  background-color: #ffffff;
+  border-style: none;
+  border-width: 0;
+
+
+  border-color: #ffffff;
+  border-radius: 0; }
+  .breadcrumbs > * {
+    margin: 0;
+    float: left;
+    font-size: 0.6875rem;
+    line-height: 0.6875rem;
+    text-transform: uppercase;
+    color: #008CBA; }
+    .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
+      text-decoration: underline; }
+    .breadcrumbs > * a {
+      color: #008CBA; }
+    .breadcrumbs > *.current {
+      cursor: default;
+      color: #333333; }
+      .breadcrumbs > *.current a {
+        cursor: default;
+        color: #333333; }
+      .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
+        text-decoration: none; }
+    .breadcrumbs > *.unavailable {
+      color: #999999; }
+      .breadcrumbs > *.unavailable a {
+        color: #999999; }
+      .breadcrumbs > *.unavailable:hover, .breadcrumbs > *.unavailable:hover a, .breadcrumbs > *.unavailable:focus,
+      .breadcrumbs > *.unavailable a:focus {
+        text-decoration: none;
+        color: #999999;
+        cursor: not-allowed; }
+    .breadcrumbs > *:before {
+      content: "/";
+      color: #AAAAAA;
+      margin: 0 0.75rem;
+      position: relative;
+      top: 1px; }
+    .breadcrumbs > *:first-child:before {
+      content: " ";
+      margin: 0; }
+
+/* Accessibility - hides the forward slash */
+[aria-label="breadcrumbs"] [aria-hidden="true"]:after {
+  content: "/"; }

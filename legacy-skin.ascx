@@ -15,6 +15,7 @@
 <dnn:META ID="mobileScale" runat="server" Name="viewport" Content="width=device-width,initial-scale=1.0" />
 <dnn:DnnCssInclude ID="DnnCssInclude1" runat="server" FilePath="css/normalize.css" PathNameAlias="SkinPath" />
 <dnn:DnnCssInclude ID="DnnCssInclude2" runat="server" FilePath="css/foundation.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude ID="breadcrumbs" runat="server" FilePath="css/breadcrumbs.css" PathNameAlias="SkinPath" />
 <dnn:DnnCssInclude ID="csslegacyweb" runat="server" FilePath="css/legacy-web.css" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude ID="DnnJsInclude1" runat="server" FilePath="js/vendor/modernizr.js" PathNameAlias="SkinPath"  />
 
@@ -49,7 +50,7 @@
 <!-- nav bar same size as grid -->
 <div class="contain-to-grid sticky"><!-- nav bar same size as grid -->
     <!-- Begin navigation -->    
-    <nav class="top-bar" data-topbar data-options="is_hover: true; back_text: &lt;&lt;&nbsp;BACK">
+    <nav class="top-bar" data-topbar data-options="scrolltop: false; back_text: &lt;&lt;&nbsp;BACK">
         <ul class="title-area">
             <li class="name"></li>
             <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>

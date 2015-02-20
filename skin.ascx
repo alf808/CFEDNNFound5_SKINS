@@ -15,6 +15,7 @@
 <dnn:META ID="mobileScale" runat="server" Name="viewport" Content="width=device-width,initial-scale=1.0" />
 <dnn:DnnCssInclude ID="DnnCssInclude1" runat="server" FilePath="css/normalize.css" PathNameAlias="SkinPath" />
 <dnn:DnnCssInclude ID="DnnCssInclude2" runat="server" FilePath="css/foundation.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude ID="breadcrumbs" runat="server" FilePath="css/breadcrumbs.css" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude ID="DnnJsInclude1" runat="server" FilePath="js/vendor/modernizr.js" PathNameAlias="SkinPath"  />
 
 <!-- Begin top functions bar -->
@@ -67,7 +68,7 @@
    <div class="large-12 columns"> 
      <ul class="breadcrumbs"> 
        <li> 
- 	    <dnn:BREADCRUMB ID="dnnBreadcrumb" runat="server" LegacyMode="false" RootLevel="0" Separator="&lt;/li&gt;&lt;li&gt;"/> 
+ 	    <dnn:BREADCRUMB ID="dnnBreadcrumb" runat="server" LegacyMode="false" RootLevel="0" Separator="&lt;/li&gt;&lt;li&gt;" /> 
  	  </li> 
  	</ul> 
    </div> 
