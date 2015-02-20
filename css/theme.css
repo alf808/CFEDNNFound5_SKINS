@@ -184,17 +184,17 @@ a.footerLink:hover          { text-decoration:none; -webkit-transition: all 0.3s
 #search                         { float: right; width:200px; }
 
 #search a.SearchButton:link,
-#search a.SearchButton:visited  { display: inline-block; width:59px; text-align:center; color:#ffffff; float: right; margin: 0; padding: 0; }
+#search a.SearchButton:visited  { display: inline-block; height:32px; width:32px; text-align:center; color:#ffffff; float: right; margin: 0; padding: 0; background: #333 url('../img/search.png') no-repeat center center; text-indent: -9999px; }
 #search a.SearchButton:hover    { -webkit-transition: all 0.3s ease-in 0s; -moz-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; }
 
 #dnn_dnnSearch_txtSearch {
     display: block;
     float: left;
-    width:200px;
-    margin-top:-7px !important;
+    width:168px;
+    /*margin-top:-7px !important;*/
     padding: 0 5px 0 10px;
     margin: 0;
-    height:35px;
+    height:32px;
     border: solid 1px #cccccc;
     border-radius: 0;
     box-shadow: none;
@@ -264,7 +264,7 @@ width:100%;
 .social-mobile-holder ul                      { margin-bottom:0 !important; margin-top:-1px; }
 .social-mobile-holder .social-links li        { list-style: none; display: inline-block; text-align:center; vertical-align: middle; margin-left:-5px; }
 .social-mobile-holder .social-links li a      { width: 34px; line-height:20px; display: block; color: #333333; font-size:24px; margin:0;-webkit-transition: all 0.3s ease-in 0s; -moz-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; }
-.social-mobile-holder .social-links li a:hover{ width: 34px; line-height:20px; display: block; color: /*#028bff*/}
+.social-mobile-holder .social-links li a:hover{ width: 34px; line-height:20px; display: block; /*color: #028bff*/}
 /********** social icons **********/
 
 /********** Login **********/
