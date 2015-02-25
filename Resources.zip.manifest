@@ -2,10 +2,6 @@
   <files>
     <file>
       <path />
-      <name>legacy-skin.ascx</name>
-    </file>
-    <file>
-      <path />
       <name>skin.ascx</name>
     </file>
     <file>
@@ -15,6 +11,10 @@
     <file>
       <path />
       <name>skin.doctype.xml</name>
+    </file>
+    <file>
+      <path>css/</path>
+      <name>breadcrumbs.css</name>
     </file>
     <file>
       <path>css/</path>
@@ -1225,6 +1225,22 @@
       <name>icon_notification.png</name>
     </file>
     <file>
+      <path>img/icons/</path>
+      <name>cfe-facebook-small.png</name>
+    </file>
+    <file>
+      <path>img/icons/</path>
+      <name>cfe-flicker-small.png</name>
+    </file>
+    <file>
+      <path>img/icons/</path>
+      <name>cfe-twit-small.png</name>
+    </file>
+    <file>
+      <path>img/</path>
+      <name>search.png</name>
+    </file>
+    <file>
       <path>includes/</path>
       <name>contentAreas.inc</name>
     </file>
@@ -1363,6 +1379,10 @@
     <file>
       <path>themes/</path>
       <name>foundation_red.css</name>
+    </file>
+    <file>
+      <path />
+      <name>legacy-skin.ascx</name>
     </file>
   </files>
 </dotnetnuke>
